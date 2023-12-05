@@ -1,0 +1,45 @@
+body {
+    background-image: url("Images/background.jpg");
+    background-size: cover;
+}
+
+.content {
+  text-align: center;
+}
+
+.topnaver {
+  text-align: center;
+  font-size: 50px;
+  overflow: hidden;
+  background-color: black;
+  padding: 5px;
+  width: 150px;
+  display: inline-block;
+}
+
+.glow {
+    font-family: 'damn', sans-serif;
+    display: grid;
+    text-align: center;
+    color: blue;
+    margin-top: 125px;
+    font-size: 80px;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow { 
+    from {
+      text-shadow: 0 0 10px black, 0 0 20px black, 0 0 30px green, 0 0 40px green, 0 0 50px green, 0 0 60px green, 0 0 70px green;
+    }
+    to {
+      text-shadow: 0 0 20px black, 0 0 30px rgb(0, 62, 0), 0 0 40px rgb(0, 62, 0), 0 0 50px rgb(0, 62, 0), 0 0 60px rgb(0, 62, 0), 0 0 70px rgb(0, 62, 0), 0 0 80px rgb(0, 62, 0);
+    }
+  }
+
+  
+    @font-face {
+        font-family: 'damn';
+        src: url(fonts/DebugFreeTrial-MVdYB.otf);
+    }
