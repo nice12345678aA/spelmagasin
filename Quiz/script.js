@@ -1,6 +1,6 @@
 // Questions that will be asked
 const Questions = [{
-    q: "Hva land er me i",
+    q: "Hva land er me i no",
     a: [{ text: "Sverige", isCorrect: false },
     { text: "Danmark", isCorrect: false },
     { text: "Norge", isCorrect: true },
